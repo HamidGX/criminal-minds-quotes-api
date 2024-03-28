@@ -67,7 +67,7 @@ PORT = 4000
 
 #### Get Random Quote
 
-```http
+```bash
   Endpoint: GET /api/quotes/random
   URL Example: http://localhost:4000/api/quotes/random/
 ```
@@ -76,7 +76,7 @@ PORT = 4000
 
 This route returns a specific quote identified by its ID.
 
-```http
+```bash
   Endpoint: GET /api/quotes/id/{id}
   URL Example: http://localhost:4000/api/quotes/id/660277247bc0ed20d9070f8f
 ```
@@ -85,7 +85,7 @@ This route returns a specific quote identified by its ID.
 
 This route returns all available quotes.
 
-```http
+```bash
   Endpoint: GET /api/quotes/
   URL Example: http://localhost:4000/api/quotes/
 ```
@@ -94,7 +94,7 @@ This route returns all available quotes.
 
 This endpoint retrieves all available quotes based on the provided keyword.
 
-```http
+```bash
   Endpoint: GET /api/quotes/search
   URL Example: http://localhost:4000/api/quotes/search?keyword=example
 ```
